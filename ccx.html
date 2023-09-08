@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>自我介绍</title>
+    <style>
+        body{
+    
+			
+			
+        }
+        .bg_layout{
+            border: 1px solid #FFFFFF;
+            margin: auto;
+            background-color: aquamarine;
+            width:700px;
+            height:600px;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+            text-align: left;
+        }
+ 
+        th{
+            width: 100px;
+            text-align: center;
+        }
+        td{
+            width:120px;
+            padding: 15px;
+        }
+        .t1{
+            font-size: 30px;
+            letter-spacing: 30px;
+            height: 80px;
+        }
+        .img{
+            background-image: url(img/ccx.png);
+			background-size: 225px 265px;
+			background-repeat: no-repeat;
+			
+		
+        }
+        ul.a{
+            list-style-type: square;
+        }
+        ul.b{
+            list-style-type: circle;
+        }
+        ol.c{
+            list-style-type:decimal;
+        }
+		*{
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+    </style>
+</head>
+<body>
+<div>
+    <table class="bg_layout">
+        <tr>
+            <th colspan="7" class="t1">自我介绍</th>
+        </tr>
+        <tr>
+            <th>姓名</th><td> 陈驰鑫</td>
+            <th>性别</th><td >男</td>
+            <td rowspan="3" class="img" colspan="6"></td>
+        </tr>
+        <tr>
+            <th>学号</th><td>21104010901</td>
+            <th>联系方式</th><td>12345678910</td>
+        </tr>
+        <tr>
+            <th>兴趣爱好</th>
+            <td colspan="6">
+                <ul class="a">
+                    <li>唱歌</li>
+                    <li>听音乐</li>
+                    <li>看电视</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <th>专业技能</th>
+            <td colspan="6">
+                <ol class="c">
+                    <li>c语言</li>
+                    <li>网页设计</li>
+                    <li>Java语言</li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <th>自我评价</th>
+            <td colspan="6">
+                <ul class="b">
+                    <li>热情善良</li>
+                    <li>诚实守信</li>
+                    <li>吃苦耐劳</li>
+                </ul>
+            </td>
+        </tr>
+        
+ 
+    </table>
+</div>
+</body>
+</html>
